@@ -1,0 +1,12 @@
+Source: nmc-iperf-benchmark
+Section: base
+Priority: optional
+Maintainer: Erast Benson <erast@gnusolaris.org>
+Build-Depends: debhelper(>=4.9.5gnusol5)
+
+Package: nmc-iperf-benchmark
+Architecture: solaris-i386
+Depends: ${shlibs:Depends}, nmc (>= 1.1.9), iperf
+Description: [:nxplugin::nmc:!iperf-benchmark] iperf benchmark extension for NMC
+ iperf benchmark integration with NMC (console)
+ .
