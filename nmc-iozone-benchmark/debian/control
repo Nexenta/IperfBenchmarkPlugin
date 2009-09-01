@@ -1,0 +1,12 @@
+Source: nmc-iozone-benchmark
+Section: base
+Priority: optional
+Maintainer: Erast Benson <erast@gnusolaris.org>
+Build-Depends: debhelper(>=4.9.5gnusol5)
+
+Package: nmc-iozone-benchmark
+Architecture: solaris-i386
+Depends: ${shlibs:Depends}, nmc (>= 1.1.9), iozone3
+Description: [:nxplugin::nmc:!iozone-benchmark] iozone benchmark extension for NMC
+ iozone benchmark integration with NMC (console)
+ .
