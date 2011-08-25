@@ -19,7 +19,7 @@
 # CDDL HEADER END
 #
 #
-# Copyright (C) 2006-2009 Nexenta Systems, Inc.
+# Copyright (C) 2005-2011 Nexenta Systems, Inc.
 # All rights reserved.
 #
 # METAFILE FOR NMS
@@ -27,15 +27,14 @@
 package Plugin::NmcIperfBenchmark;
 use base qw(NZA::Plugin);
 
-$Plugin::CLASS				= 'NmcIperfBenchmark';
+$Plugin::CLASS = 'NmcIperfBenchmark';
 
-$Plugin::NmcIperfBenchmark::NAME		= 'nmc-iperf-benchmark';
-$Plugin::NmcIperfBenchmark::DESCRIPTION		= 'Iperf benchmark extension for NMC';
-$Plugin::NmcIperfBenchmark::LICENSE		= 'Open Source (CDDL)';
-$Plugin::NmcIperfBenchmark::AUTHOR		= 'Nexenta Systems, Inc';
-$Plugin::NmcIperfBenchmark::VERSION		= '1.2';
-$Plugin::NmcIperfBenchmark::GROUP		= '!iperf-benchmark';
-$Plugin::NmcIperfBenchmark::LOADER		= 'Iperf.pm';
-@Plugin::NmcIperfBenchmark::FILES		= ('Iperf.pm');
+$Plugin::NmcIperfBenchmark::NAME            = 'nmc-iperf-benchmark';
+$Plugin::NmcIperfBenchmark::DESCRIPTION     = 'Iperf benchmark extension for NMC';
+$Plugin::NmcIperfBenchmark::LICENSE         = 'Open Source (CDDL)';
+$Plugin::NmcIperfBenchmark::AUTHOR          = 'Nexenta Systems, Inc';
+$Plugin::NmcIperfBenchmark::GROUP           = '!iperf-benchmark';
+$Plugin::NmcIperfBenchmark::LOADER          = 'Iperf.pm';
+@Plugin::NmcIperfBenchmark::FILES           = ('Iperf.pm');
 
 1;
