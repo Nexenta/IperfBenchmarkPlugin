@@ -20,4 +20,4 @@ deploy-dirs: clean
 
 deploy-files: deploy-dirs
 	@$(CP) $(CWD)/metafile.pm $(DESTDIR)/$(PLUGINDIR)
-	@$(CP) $(CWD)/Iperf.pm.pm $(DESTDIR)/$(PLUGINDIR)
+	@$(CP) $(CWD)/Iperf.pm $(DESTDIR)/$(PLUGINDIR)
