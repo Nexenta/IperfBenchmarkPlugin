@@ -2,11 +2,11 @@ Source: nmc-iperf-benchmark
 Section: base
 Priority: optional
 Maintainer: Nexenta Systems <maintainer@nexenta.com>
-Build-Depends: debhelper(>= 40-0-6)
+Build-Depends: debhelper(>= 40-0-11)
 
 Package: nmc-iperf-benchmark
 Architecture: any
-Depends: ${perl:Depends}, nmc (>= 40-0-0), iperf
+Depends: nmc (>= 40-0-0), benchmark-iperf
 Description: [:nxplugin::nmc:!iperf-benchmark] iperf benchmark extension for NMC
  iperf benchmark integration with NMC (console)
  .
